@@ -27,3 +27,17 @@ footer{background:#25120f;color:#fff;padding:30px 7%;display:flex;justify-conten
 @media(max-width:430px){.product-grid{grid-template-columns:1fr}.hero-actions{flex-direction:column}.trust-row{display:grid}.brand small{display:none}}
 
 .product-art img{width:100%;height:100%;object-fit:cover;display:block}.product-art .fallback-icon{display:none}.photo-hero:before{background:rgba(239,224,195,.82)}.recipe-art{overflow:hidden}.recipe-art img{width:100%;height:100%;object-fit:cover;display:block}
+/* Our Story image */
+.story-image {
+  overflow: hidden;
+  border-radius: 24px;
+}
+
+.story-image img {
+  display: block;
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 24px;
+}
