@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SPICY DOTT | Destination of Taste & Transparency</title>
+  <meta name="description" content="SPICY DOTT — authentic Indian spices and masalas. Homemade, carefully prepared and packed with care.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="announcement">🌶️ Pure taste. Authentic spices. Free delivery in Mira-Bhayander on orders above ₹500.</div>
+  </header>
+
+  <nav class="nav">
+    <a class="brand" href="#home">
+      <span class="brand-mark">🌶️</span>
+      <span><strong>SPICY DOTT</strong><small>Destination of Taste & Transparency</small></span>
+    </a>
+    <div class="navlinks">
+      <a href="#shop">Shop</a>
+      <a href="#story">Our Story</a>
+      <a href="#recipes">Recipes</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="cart-btn" id="cartBtn" aria-label="Open cart">🛒 <span id="cartCount">0</span></button>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">AUTHENTIC INDIAN SPICES</p>
+        <h1>Bring the aroma of a real Indian kitchen to your table.</h1>
+        <p class="hero-text">Carefully selected spices and masalas made for everyday cooking, special occasions and unforgettable family meals.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#shop">Shop Masalas</a>
+          <a class="btn secondary" href="#story">Discover SPICY DOTT</a>
+        </div>
+        <div class="trust-row">
+          <span>🌿 Quality ingredients</span>
+          <span>🏡 Homemade care</span>
+          <span>📦 Hygienic packing</span>
+        </div>
+      </div>
+      <div class="hero-visual photo-hero">
+        <div class="spice-bowl bowl-one">🌶️</div>
+        <div class="spice-bowl bowl-two">🌿</div>
+        <div class="hero-card">
+          <span>SPICY DOTT</span>
+          <b>Pure. Bold. Indian.</b>
+          <small>Made to make everyday food special.</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="shop">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">SHOP</p>
+          <h2>Our Masala Collection</h2>
+        </div>
+        <div class="controls">
+          <input id="search" type="search" placeholder="Search masala..." aria-label="Search products">
+          <select id="filter" aria-label="Filter products">
+            <option value="all">All products</option>
+            <option value="masala">Masalas</option>
+            <option value="powder">Spice powders</option>
+          </select>
+        </div>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="story section" id="story">
+      <div class="story-image">
+        <div class="ingredient-cloud">🌶️ 🌿 🫘 🫚 🧄 🌰</div>
+        <div class="story-label">FROM SPICE<br>TO TABLE</div>
+      </div>
+      <div class="story-copy">
+        <p class="eyebrow">OUR STORY</p>
+        <h2>More than masala. It's the taste of home.</h2>
+        <p>SPICY DOTT was created with a simple idea: everyday food deserves authentic flavour. We focus on carefully chosen ingredients, thoughtful preparation and honest presentation.</p>
+        <p>Our goal is to bring familiar Indian flavours to your kitchen while building a brand you can trust, one pack at a time.</p>
+        <div class="feature-list">
+          <div><b>🌿 Carefully selected</b><span>Ingredients chosen for aroma and flavour.</span></div>
+          <div><b>🌶️ Authentic taste</b><span>Masalas designed for Indian home cooking.</span></div>
+          <div><b>❤️ Made with care</b><span>Every pack represents our promise of quality.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="recipes section" id="recipes">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">INSPIRE YOUR KITCHEN</p>
+          <h2>Cook something delicious</h2>
+        </div>
+      </div>
+      <div class="recipe-grid">
+        <article class="recipe-card"><div class="recipe-art"><img src="images/pav_bhaji.jpg" alt="Pav Bhaji made with SPICY DOTT Pav Bhaji Masala"></div><h3>Sunday Special Chicken</h3><p>Rich, aromatic and perfect for a family lunch.</p></article>
+        <article class="recipe-card"><div class="recipe-art"><img src="images/chicken_curry.jpg" alt="Chicken curry made with SPICY DOTT Chicken Masala"></div><h3>Authentic Pav Bhaji</h3><p>Street-food flavour made at home with confidence.</p></article>
+        <article class="recipe-card"><div class="recipe-art"><img src="images/sambar.jpg" alt="Sambar made with SPICY DOTT Sambar Masala"></div><h3>Comforting Chole</h3><p>Bold spices, slow-cooked goodness and soft rotis.</p></article>
+      </div>
+    </section>
+
+    <section class="cta section">
+      <div>
+        <p class="eyebrow">READY TO COOK?</p>
+        <h2>Make your next meal a SPICY DOTT meal.</h2>
+        <p>Choose your favourites and send your order through WhatsApp.</p>
+      </div>
+      <button class="btn primary" id="whatsappTop">Order on WhatsApp</button>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div>
+        <p class="eyebrow">CONTACT</p>
+        <h2>Let's stay connected.</h2>
+        <p>For orders, bulk enquiries, collaborations and feedback, contact SPICY DOTT directly.</p>
+      </div>
+      <div class="contact-card">
+        <div><span>📱</span><b>WhatsApp</b><small>Update the number in script.js before publishing.</small></div>
+        <div><span>📸</span><b>Instagram</b><small>@spicydott</small></div>
+        <div><span>📍</span><b>Location</b><small>Mira-Bhayander, Mumbai</small></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><b>SPICY DOTT</b><span>Destination of Taste & Transparency</span></div>
+    <div>© <span id="year"></span> SPICY DOTT. All rights reserved.</div>
+  </footer>
+
+  <aside class="cart" id="cart" aria-hidden="true">
+    <div class="cart-head"><h2>Your Cart</h2><button id="closeCart">✕</button></div>
+    <div id="cartItems" class="cart-items"></div>
+    <div class="cart-bottom">
+      <div class="total"><span>Total</span><strong id="cartTotal">₹0</strong></div>
+      <button class="btn primary full" id="checkout">Send Order on WhatsApp</button>
+      <small>Free delivery in Mira-Bhayander on orders above ₹500.</small>
+    </div>
+  </aside>
+  <div class="overlay" id="overlay"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
