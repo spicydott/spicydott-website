@@ -41,3 +41,34 @@ footer{background:#25120f;color:#fff;padding:30px 7%;display:flex;justify-conten
   object-position: center;
   border-radius: 24px;
 }
+/* Fix Our Story image size and prevent horizontal overflow */
+.story-section {
+  overflow: hidden;
+}
+
+.story-section > div {
+  min-width: 0;
+}
+
+.story-image {
+  width: 100% !important;
+  max-width: 520px !important;
+  min-width: 0 !important;
+  overflow: hidden;
+  border-radius: 24px;
+}
+
+.story-image img {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 360px !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  border-radius: 24px;
+}
+
+.story-copy {
+  min-width: 0 !important;
+  max-width: 100%;
+}
