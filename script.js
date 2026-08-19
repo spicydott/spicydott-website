@@ -1,17 +1,17 @@
 const PRODUCTS = [
-  {id:1,name:"Chole Masala",price:110,type:"masala",icon:"🍛",image:"images/sambar.jpg",desc:"Aromatic blend for rich, comforting chole."},
-  {id:2,name:"Pav Bhaji Masala",price:110,type:"masala",icon:"🥘",image:"images/pav_bhaji.jpg",desc:"Bold Mumbai-style flavour for pav bhaji."},
-  {id:3,name:"Garam Masala",price:110,type:"masala",icon:"🌿",image:"images/spice_mix.jpg",desc:"Warm, aromatic finishing masala for everyday cooking."},
-  {id:4,name:"Chicken Masala",price:110,type:"masala",icon:"🍗",image:"images/chicken_curry.jpg",desc:"A fragrant blend made for hearty chicken dishes."},
-  {id:5,name:"Fish Masala",price:90,type:"masala",icon:"🐟",image:"images/fish_fry.jpg",desc:"Balanced spices for delicious fish preparations."},
-  {id:6,name:"Chaha Masala",price:160,type:"masala",icon:"☕",image:"images/masala_chai.jpg",desc:"A warming blend to elevate your daily chai."},
-  {id:7,name:"Sunday Special Masala",price:100,type:"masala",icon:"🍲",image:"images/spice_mix.jpg",desc:"Made for special family meals and weekend cooking."},
-  {id:8,name:"Kashmiri Lal Masala",price:80,type:"powder",icon:"🌶️",image:"images/red_chilli.jpg",desc:"Beautiful colour and balanced chilli warmth."},
-  {id:9,name:"Sambar Masala",price:90,type:"masala",icon:"🥣",image:"images/sambar.jpg",desc:"South Indian-inspired flavour for comforting sambar."},
-  {id:10,name:"Kala Masala",price:100,type:"masala",icon:"🫘",image:"images/whole_spices.jpg",desc:"Deep, roasted character for traditional dishes."},
-  {id:11,name:"Kanda Lasun",price:60,type:"masala",icon:"🧄",image:"images/cumin_cardamom.jpg",desc:"A punchy Maharashtrian favourite."},
-  {id:12,name:"Malvani Masala",price:110,type:"masala",icon:"🌶️",image:"images/red_chilli.jpg",desc:"Bold coastal flavour for curries and seafood."},
-  {id:13,name:"Lal Tikhat Medium",price:70,type:"powder",icon:"🔥",image:"images/red_chilli.jpg",desc:"Everyday medium chilli heat for Indian cooking."}
+  {id:1,name:"Chole Masala",price:110,type:"masala",icon:"🍛",image:"Chole Masala.png",desc:"Aromatic blend for rich, comforting chole."},
+  {id:2,name:"Pav Bhaji Masala",price:110,type:"masala",icon:"🥘",image:"Pav Bhaji Masala.png",desc:"Bold Mumbai-style flavour for pav bhaji."},
+  {id:3,name:"Garam Masala",price:110,type:"masala",icon:"🌿",image:"Garam Masala.png",desc:"Warm, aromatic finishing masala for everyday cooking."},
+  {id:4,name:"Chicken Masala",price:110,type:"masala",icon:"🍗",image:"Chicken Masala.png",desc:"A fragrant blend made for hearty chicken dishes."},
+  {id:5,name:"Fish Masala",price:90,type:"masala",icon:"🐟",image:"Fish Masala.png",desc:"Balanced spices for delicious fish preparations."},
+  {id:6,name:"Chaha Masala",price:160,type:"masala",icon:"☕",image:"Chaha Masala.png",desc:"A warming blend to elevate your daily chai."},
+  {id:7,name:"Sunday Special Masala",price:100,type:"masala",icon:"🍲",image:"Sunday Special Masala.png",desc:"Made for special family meals and weekend cooking."},
+  {id:8,name:"Kashmiri Lal Masala",price:80,type:"powder",icon:"🌶️",image:"Kashmiri Lal.png",desc:"Beautiful colour and balanced chilli warmth."},
+  {id:9,name:"Sambar Masala",price:90,type:"masala",icon:"🥣",image:"Sambar Masala.png",desc:"South Indian-inspired flavour for comforting sambar."},
+  {id:10,name:"Kala Masala",price:100,type:"masala",icon:"🫘",image:"Kala Masala.png",desc:"Deep, roasted character for traditional dishes."},
+  {id:11,name:"Kanda Lasun",price:60,type:"masala",icon:"🧄",image:"Kanda Lasun Masala.png",desc:"A punchy Maharashtrian favourite."},
+  {id:12,name:"Malvani Masala",price:110,type:"masala",icon:"🌶️",image:"Malvani Masala.png",desc:"Bold coastal flavour for curries and seafood."},
+  {id:13,name:"Lal Tikhat Medium",price:70,type:"powder",icon:"🔥",image:"Lal Tikhat (Medium).png",desc:"Everyday medium chilli heat for Indian cooking."}
 ];
 
 // Replace this with SPICY DOTT's actual WhatsApp number in international format, without + or spaces.
