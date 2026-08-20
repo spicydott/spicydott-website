@@ -8,6 +8,15 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- SPICY DOTT Announcement Bar -->
+<div class="announcement-bar">
+  <div class="announcement-track">
+    <span>🌿 100% Pure & Authentic Spices</span>
+    <span>🚚 Free Delivery in Mira-Bhayander on orders above ₹500</span>
+    <span>📲 Easy WhatsApp Ordering</span>
+    <span>❤️ Made with Care by SPICY DOTT</span>
+  </div>
+</div>
   <header class="topbar">
     <div class="announcement">🌶️ Pure taste. Authentic spices. Free delivery in Mira-Bhayander on orders above ₹500.</div>
   </header>
@@ -54,11 +63,39 @@
     </section>
 
     <section class="section" id="shop">
-      <div class="section-head">
-        <div>
-          <p class="eyebrow">SHOP</p>
-          <h2>Our Masala Collection</h2>
-        </div>
+    <section class="shop section" id="shop">
+
+  <div class="section-head shop-head">
+    <div>
+      <p class="eyebrow">SHOP SPICY DOTT</p>
+      <h2>Our Masala Collection</h2>
+      <p class="shop-intro">
+        Authentic Indian flavours, carefully blended for everyday cooking.
+      </p>
+    </div>
+
+    <div class="shop-tools">
+      <div class="search-box">
+        🔎
+        <input
+          id="search"
+          type="search"
+          placeholder="Search masala..."
+          aria-label="Search products"
+        >
+      </div>
+
+      <select id="filter" aria-label="Filter products">
+        <option value="all">All Products</option>
+        <option value="masala">Masalas</option>
+        <option value="powder">Spice Powders</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="product-grid" id="productGrid"></div>
+
+</section>
         <div class="controls">
           <input id="search" type="search" placeholder="Search masala..." aria-label="Search products">
           <select id="filter" aria-label="Filter products">
