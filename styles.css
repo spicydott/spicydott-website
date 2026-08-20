@@ -67,7 +67,209 @@ footer{background:#25120f;color:#fff;padding:30px 7%;display:flex;justify-conten
   object-position: center !important;
   border-radius: 24px;
 }
+/* =========================================
+   SPICY DOTT - MODERN STORE ELEMENTS
+   ========================================= */
 
+/* Announcement bar */
+.announcement-bar {
+  width: 100%;
+  background: #176b38;
+  color: #fff;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .2px;
+}
+
+.announcement-track {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  min-height: 38px;
+  padding: 0 20px;
+}
+
+.announcement-track span {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Shop heading */
+.shop-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 30px;
+  margin-bottom: 35px;
+}
+
+.shop-intro {
+  max-width: 560px;
+  margin-top: 8px;
+}
+
+/* Search + filter */
+.shop-tools {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  border: 1px solid #e5d8c8;
+  border-radius: 12px;
+  padding: 0 15px;
+  height: 52px;
+  min-width: 230px;
+}
+
+.search-box input {
+  border: 0;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  font-size: 15px;
+  color: #3a2820;
+}
+
+.search-box input::placeholder {
+  color: #8c8178;
+}
+
+.shop-tools select {
+  height: 52px;
+  padding: 0 40px 0 15px;
+  border: 1px solid #e5d8c8;
+  border-radius: 12px;
+  background: #fff;
+  color: #3a2820;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Product cards */
+.product {
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #eaded0;
+  border-radius: 18px;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.product:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(50, 30, 15, .12);
+}
+
+.product-art {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: #f3e3c8;
+}
+
+.product-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.product-art .fallback-icon {
+  display: none;
+}
+
+.product-info {
+  padding: 18px;
+}
+
+.product-info .tag {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #8a2419;
+}
+
+.product-info h3 {
+  margin: 7px 0;
+  font-size: 20px;
+}
+
+.product-info p {
+  color: #766b63;
+  font-size: 14px;
+  line-height: 1.55;
+  min-height: 44px;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.price {
+  font-size: 19px;
+  font-weight: 700;
+  color: #a32118;
+}
+
+.add {
+  border: 0;
+  border-radius: 20px;
+  padding: 10px 18px;
+  background: #7d1d18;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .2s ease;
+}
+
+.add:hover {
+  background: #5d1511;
+  transform: translateY(-1px);
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+
+  .announcement-track {
+    justify-content: flex-start;
+    overflow-x: auto;
+    gap: 25px;
+    padding: 0 15px;
+  }
+
+  .shop-head {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .shop-tools {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .search-box,
+  .shop-tools select {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .product-info h3 {
+    font-size: 18px;
+  }
+}
 .story-copy {
   min-width: 0 !important;
   max-width: 100%;
