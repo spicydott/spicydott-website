@@ -64,3 +64,30 @@ h1{font-family:Georgia,"Times New Roman",serif;color:var(--deep-red);font-size:c
   .food-visual{min-height:300px}
   .ingredients{grid-template-columns:1fr}
 }
+
+/* Real final-dish photo used on each recipe page */
+.recipe-photo {
+  width: 100%;
+  height: 100%;
+  min-height: 390px;
+  object-fit: cover;
+  display: block;
+  border-radius: 28px;
+}
+.food-visual {
+  position: relative;
+  overflow: hidden;
+}
+.food-visual .photo-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,.60), rgba(0,0,0,.05) 55%, rgba(0,0,0,.10));
+  z-index: 1;
+}
+.food-visual .visual-label,
+.food-visual .visual-caption {
+  z-index: 2;
+}
+@media(max-width:800px){
+  .recipe-photo { min-height: 300px; }
+}
